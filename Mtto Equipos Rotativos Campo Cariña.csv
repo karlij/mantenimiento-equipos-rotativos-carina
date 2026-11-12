@@ -1,0 +1,199 @@
+﻿Area;ESTACIÓN;Estado;Ubicación Tecnica;Sistema;Subsistema;Fecha de Inicio;Tipo de Mantenimiento;Frecuencia;Responsable;observación
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Bomba Multifásica;21/8/2026;Mantenimiento preventivo;Semanal;Operador de Estación / Mantenimiento;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Bomba Multifásica;21/8/2026;Mantenimiento preventivo;Mensual;Electricidad / Instrumentación / Mecánica;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Bomba Multifásica;21/8/2026;Mantenimiento predictivo;Mensual;Electricidad / Instrumentación / Mecánica;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Bomba Multifásica;21/8/2026;Mantenimiento predictivo;Trimestral;Cuadrilla de Mantenimiento / Servicio Especializado;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Bomba Multifásica;21/8/2026;Mantenimiento preventivo;Semestral;Cuadrilla de Mantenimiento / Servicio  Especializado;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Bomba Multifásica;21/8/2026;Mantenimiento preventivo;Anual;Cuadrilla de Mantenimiento / Servicio  Especializado;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Motor Eléctrico;1/3/2026;Mantenimiento preventivo;Semanal;Electricidad;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Motor Eléctrico;1/3/2026;Mantenimiento preventivo;Mensual;Electricidad;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Motor Eléctrico;1/3/2026;Mantenimiento predictivo;Mensual;Cuadrilla de Mantenimiento / Servicio  Especializado;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Motor Eléctrico;1/3/2026;Mantenimiento preventivo;Trimestral;Electricidad;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Motor Eléctrico;1/3/2026;Mantenimiento preventivo;Anual;Electricidad;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Motor Eléctrico;1/3/2026;Mantenimiento predictivo;Anual;Cuadrilla de Mantenimiento / Servicio  Especializado;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Arrancador ;1/3/2026;Mantenimiento preventivo;Mensual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Arrancador ;1/3/2026;Mantenimiento predictivo;Mensual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Arrancador ;1/3/2026;Mantenimiento preventivo;Trimestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Arrancador ;1/3/2026;Mantenimiento predictivo;Trimestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Arrancador ;1/3/2026;Mantenimiento preventivo;Semestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Arrancador ;1/3/2026;Mantenimiento predictivo;Semestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Arrancador ;1/3/2026;Mantenimiento preventivo;Anual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Arrancador ;1/3/2026;Mantenimiento predictivo;Anual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Valvula de Seguridad;1/3/2026;Mantenimiento preventivo;Mensual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Valvula de Seguridad;1/3/2026;Mantenimiento preventivo;Trimestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Valvula de Seguridad;1/3/2026;Mantenimiento predictivo;Trimestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Valvula de Seguridad;1/3/2026;Mantenimiento preventivo;Anual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Valvula de Seguridad;1/3/2026;Calibración;Bi Anual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Transmisor de Presión / Temperatura;1/3/2026;Mantenimiento preventivo;Mensual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Transmisor de Presión / Temperatura;1/3/2026;Mantenimiento predictivo;Mensual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Transmisor de Presión / Temperatura;1/3/2026;Mantenimiento preventivo;Trimestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Transmisor de Presión / Temperatura;1/3/2026;Mantenimiento preventivo;Semestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Transmisor de Presión / Temperatura;1/3/2026;Calibración;Anual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Transmisor de Flujo Micromotion;1/3/2026;Mantenimiento preventivo;Mensual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Transmisor de Flujo Micromotion;1/3/2026;Mantenimiento predictivo;Mensual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Transmisor de Flujo Micromotion;1/3/2026;Mantenimiento preventivo;Trimestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Transmisor de Flujo Micromotion;1/3/2026;Mantenimiento predictivo;Trimestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Transmisor de Flujo Micromotion;1/3/2026;Mantenimiento preventivo;Semestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Transmisor de Flujo Micromotion;1/3/2026;Mantenimiento predictivo;Semestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM1-SIBTRCRU-SSMPP01;S/S BOMBEO MULTIFASICO 1;Transmisor de Flujo Micromotion;1/3/2026;Calibración;Anual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Bomba Multifásica;24/6/2026;Mantenimiento preventivo;Semanal;Operador de Estación / Mantenimiento;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Bomba Multifásica;24/6/2026;Mantenimiento preventivo;Mensual;Electricidad / Instrumentación / Mecánica;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Bomba Multifásica;24/6/2026;Mantenimiento predictivo;Mensual;Electricidad / Instrumentación / Mecánica;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Bomba Multifásica;24/6/2026;Mantenimiento predictivo;Trimestral;Cuadrilla de Mantenimiento / Servicio Especializado;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Bomba Multifásica;24/6/2026;Mantenimiento preventivo;Semestral;Cuadrilla de Mantenimiento / Servicio  Especializado;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Bomba Multifásica;24/6/2026;Mantenimiento preventivo;Anual;Cuadrilla de Mantenimiento / Servicio  Especializado;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Motor Eléctrico;13/9/2026;Mantenimiento preventivo;Semanal;Electricidad;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Motor Eléctrico;13/9/2026;Mantenimiento preventivo;Mensual;Electricidad;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Motor Eléctrico;13/9/2026;Mantenimiento predictivo;Mensual;Cuadrilla de Mantenimiento / Servicio  Especializado;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Motor Eléctrico;13/9/2026;Mantenimiento preventivo;Trimestral;Electricidad;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Motor Eléctrico;13/9/2026;Mantenimiento preventivo;Anual;Electricidad;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Motor Eléctrico;13/9/2026;Mantenimiento predictivo;Anual;Cuadrilla de Mantenimiento / Servicio  Especializado;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Arrancador ;1/3/2026;Mantenimiento preventivo;Mensual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Arrancador ;1/3/2026;Mantenimiento predictivo;Mensual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Arrancador ;1/3/2026;Mantenimiento preventivo;Trimestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Arrancador ;1/3/2026;Mantenimiento predictivo;Trimestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Arrancador ;1/3/2026;Mantenimiento preventivo;Semestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Arrancador ;1/3/2026;Mantenimiento predictivo;Semestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Arrancador ;1/3/2026;Mantenimiento preventivo;Anual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Arrancador ;1/3/2026;Mantenimiento predictivo;Anual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Valvula de Seguridad;1/3/2026;Mantenimiento preventivo;Mensual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Valvula de Seguridad;1/3/2026;Mantenimiento preventivo;Trimestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Valvula de Seguridad;1/3/2026;Mantenimiento predictivo;Trimestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Valvula de Seguridad;1/3/2026;Mantenimiento preventivo;Anual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Valvula de Seguridad;1/3/2026;Calibración;Bi Anual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Transmisor de Presión / Temperatura;1/3/2026;Mantenimiento preventivo;Mensual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Transmisor de Presión / Temperatura;1/3/2026;Mantenimiento predictivo;Mensual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Transmisor de Presión / Temperatura;1/3/2026;Mantenimiento preventivo;Trimestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Transmisor de Presión / Temperatura;1/3/2026;Mantenimiento preventivo;Semestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Transmisor de Presión / Temperatura;1/3/2026;Calibración;Anual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Transmisor de Flujo Micromotion;1/3/2026;Mantenimiento preventivo;Mensual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Transmisor de Flujo Micromotion;1/3/2026;Mantenimiento predictivo;Mensual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Transmisor de Flujo Micromotion;1/3/2026;Mantenimiento preventivo;Trimestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Transmisor de Flujo Micromotion;1/3/2026;Mantenimiento predictivo;Trimestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Transmisor de Flujo Micromotion;1/3/2026;Mantenimiento preventivo;Semestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Transmisor de Flujo Micromotion;1/3/2026;Mantenimiento predictivo;Semestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;FASTDBK-CNEM2-SIBTRCRU-SSMPP02;S/S BOMBEO MULTIFASICO 2;Transmisor de Flujo Micromotion;1/3/2026;Calibración;Anual;Cuadrilla Electricidad / Instrumentación;
+Cariña Norte;Multifasica ;Activo;;S/S BOMBEO DUPLEX;Bomba Dúplex;22/7/2026;Mantenimiento preventivo;Semanal;Operador de Estación / Mantenimiento;
+Cariña Norte;Multifasica ;Activo;;S/S BOMBEO DUPLEX;Bomba Dúplex;22/7/2026;Mantenimiento preventivo;Quincenal;Cuadrilla de Mantenimiento;
+Cariña Norte;Multifasica ;Activo;;S/S BOMBEO DUPLEX;Bomba Dúplex;22/7/2026;Mantenimiento preventivo;Mensual;Cuadrilla de Mantenimiento;
+Cariña Norte;Multifasica ;Activo;;S/S BOMBEO DUPLEX;Bomba Dúplex;22/7/2026;Mantenimiento preventivo;Trimestral;Cuadrilla de Mantenimiento;
+Cariña Norte;Multifasica ;Activo;;S/S BOMBEO DUPLEX;Bomba Dúplex;22/7/2026;Mantenimiento preventivo;Semestral;Cuadrilla de Mantenimiento;
+Cariña Norte;Multifasica ;Activo;;S/S BOMBEO DUPLEX;Bomba Dúplex;22/7/2026;Mantenimiento preventivo;Anual;Cuadrilla de Mantenimiento;
+Cariña Norte;Multifasica ;Activo;;S/S BOMBEO DUPLEX;Bomba Dúplex;1/3/2026;Mantenimiento preventivo;Semanal;Operador de Estación / Mantenimiento;
+Cariña Norte;Multifasica ;Activo;;S/S BOMBEO DUPLEX;Motor Electrico;1/3/2026;Mantenimiento preventivo;Semanal;Electricidad;
+Cariña Norte;Multifasica ;Activo;;S/S BOMBEO DUPLEX;Motor Electrico;1/3/2026;Mantenimiento preventivo;Mensual;Electricidad;
+Cariña Norte;Multifasica ;Activo;;S/S BOMBEO DUPLEX;Motor Electrico;1/3/2026;Mantenimiento predictivo;Mensual;Cuadrilla de Mantenimiento / Servicio  Especializado;
+Cariña Norte;Multifasica ;Activo;;S/S BOMBEO DUPLEX;Motor Electrico;1/3/2026;Mantenimiento preventivo;Trimestral;Electricidad;
+Cariña Norte;Multifasica ;Activo;;S/S BOMBEO DUPLEX;Motor Electrico;1/3/2026;Mantenimiento preventivo;Anual;Electricidad;
+Cariña Norte;Multifasica ;Activo;;S/S BOMBEO DUPLEX;Motor Electrico;1/3/2026;Mantenimiento predictivo;Anual;Cuadrilla de Mantenimiento / Servicio  Especializado;
+Cariña Norte;Multifasica ;Activo;;S/S BOMBEO DUPLEX;Variador de Frecuencia;1/3/2026;Mantenimiento preventivo;Mensual;Electricidad;
+Cariña Norte;Multifasica ;Activo;;S/S BOMBEO DUPLEX;Variador de Frecuencia;1/3/2026;Mantenimiento predictivo;Mensual;Electricidad;
+Cariña Norte;Multifasica ;Activo;;S/S BOMBEO DUPLEX;Variador de Frecuencia;1/3/2026;Mantenimiento preventivo;Trimestral;Electricidad;
+Cariña Norte;Multifasica ;Activo;;S/S BOMBEO DUPLEX;Variador de Frecuencia;1/3/2026;Mantenimiento predictivo;Trimestral;Electricidad;
+Cariña Norte;Multifasica ;Activo;;S/S BOMBEO DUPLEX;Variador de Frecuencia;1/3/2026;Mantenimiento preventivo;Semestral;Electricidad;
+Cariña Norte;Multifasica ;Activo;;S/S BOMBEO DUPLEX;Variador de Frecuencia;1/3/2026;Mantenimiento predictivo;Semestral;Electricidad;
+Cariña Norte;Multifasica ;Activo;;S/S BOMBEO DUPLEX;Variador de Frecuencia;1/3/2026;Mantenimiento preventivo;Anual;Electricidad;
+Cariña Norte;Multifasica ;Activo;;S/S BOMBEO DUPLEX;Variador de Frecuencia;1/3/2026;Mantenimiento predictivo;Anual;Electricidad;
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM01;S/S BOMBEO CRUDO 1;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Semanal;Operador de Estación / Mantenimiento;
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM01;S/S BOMBEO CRUDO 1;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Quincenal;Cuadrilla de Mantenimiento;
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM01;S/S BOMBEO CRUDO 1;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Mensual;Cuadrilla de Mantenimiento;
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM01;S/S BOMBEO CRUDO 1;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Trimestral;Cuadrilla de Mantenimiento;
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM01;S/S BOMBEO CRUDO 1;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Semestral;Cuadrilla de Mantenimiento;
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM01;S/S BOMBEO CRUDO 1;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Anual;Cuadrilla de Mantenimiento;
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM01;S/S BOMBEO CRUDO 1;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Semanal;Operador de Estación / Mantenimiento;
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM01;S/S BOMBEO CRUDO 1;Motor Electrico;1/3/2026;Mantenimiento preventivo;Semanal;Electricidad;septiembre 2026 Mantenimiento Mayor
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM01;S/S BOMBEO CRUDO 1;Motor Electrico;1/3/2026;Mantenimiento preventivo;Mensual;Electricidad;septiembre 2026 Mantenimiento Mayor
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM01;S/S BOMBEO CRUDO 1;Motor Electrico;1/3/2026;Mantenimiento predictivo;Mensual;Cuadrilla de Mantenimiento / Servicio  Especializado;septiembre 2026 Mantenimiento Mayor
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM01;S/S BOMBEO CRUDO 1;Motor Electrico;1/3/2026;Mantenimiento preventivo;Trimestral;Electricidad;septiembre 2026 Mantenimiento Mayor
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM01;S/S BOMBEO CRUDO 1;Motor Electrico;1/3/2026;Mantenimiento preventivo;Anual;Electricidad;septiembre 2026 Mantenimiento Mayor
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM01;S/S BOMBEO CRUDO 1;Motor Electrico;1/3/2026;Mantenimiento predictivo;Anual;Cuadrilla de Mantenimiento / Servicio  Especializado;septiembre 2026 Mantenimiento Mayor
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM01;S/S BOMBEO CRUDO 1;Arrancador ;23/4/2026;Mantenimiento preventivo;Mensual;Electricidad;
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM01;S/S BOMBEO CRUDO 1;Arrancador ;23/4/2026;Mantenimiento predictivo;Mensual;Electricidad;
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM01;S/S BOMBEO CRUDO 1;Arrancador ;23/4/2026;Mantenimiento preventivo;Trimestral;Electricidad;
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM01;S/S BOMBEO CRUDO 1;Arrancador ;23/4/2026;Mantenimiento predictivo;Trimestral;Electricidad;
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM01;S/S BOMBEO CRUDO 1;Arrancador ;23/4/2026;Mantenimiento preventivo;Semestral;Electricidad;
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM01;S/S BOMBEO CRUDO 1;Arrancador ;23/4/2026;Mantenimiento predictivo;Semestral;Electricidad;
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM01;S/S BOMBEO CRUDO 1;Arrancador ;23/4/2026;Mantenimiento preventivo;Anual;Electricidad;
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM01;S/S BOMBEO CRUDO 1;Arrancador ;23/4/2026;Mantenimiento predictivo;Anual;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM02;S/S BOMBEO CRUDO 2;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Semanal;Operador de Estación / Mantenimiento;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM02;S/S BOMBEO CRUDO 2;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Quincenal;Cuadrilla de Mantenimiento;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM02;S/S BOMBEO CRUDO 2;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Mensual;Cuadrilla de Mantenimiento;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM02;S/S BOMBEO CRUDO 2;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Trimestral;Cuadrilla de Mantenimiento;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM02;S/S BOMBEO CRUDO 2;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Semestral;Cuadrilla de Mantenimiento;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM02;S/S BOMBEO CRUDO 2;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Anual;Cuadrilla de Mantenimiento;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM02;S/S BOMBEO CRUDO 2;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Semanal;Operador de Estación / Mantenimiento;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM02;S/S BOMBEO CRUDO 2;Motor Electrico;1/3/2026;Mantenimiento preventivo;Semanal;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM02;S/S BOMBEO CRUDO 2;Motor Electrico;1/3/2026;Mantenimiento preventivo;Mensual;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM02;S/S BOMBEO CRUDO 2;Motor Electrico;1/3/2026;Mantenimiento predictivo;Mensual;Cuadrilla de Mantenimiento / Servicio  Especializado;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM02;S/S BOMBEO CRUDO 2;Motor Electrico;1/3/2026;Mantenimiento preventivo;Trimestral;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM02;S/S BOMBEO CRUDO 2;Motor Electrico;1/3/2026;Mantenimiento preventivo;Anual;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM02;S/S BOMBEO CRUDO 2;Motor Electrico;1/3/2026;Mantenimiento predictivo;Anual;Cuadrilla de Mantenimiento / Servicio  Especializado;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM02;S/S BOMBEO CRUDO 2;Arrancador ;23/4/2026;Mantenimiento preventivo;Mensual;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM02;S/S BOMBEO CRUDO 2;Arrancador ;23/4/2026;Mantenimiento predictivo;Mensual;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM02;S/S BOMBEO CRUDO 2;Arrancador ;23/4/2026;Mantenimiento preventivo;Trimestral;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM02;S/S BOMBEO CRUDO 2;Arrancador ;23/4/2026;Mantenimiento predictivo;Trimestral;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM02;S/S BOMBEO CRUDO 2;Arrancador ;23/4/2026;Mantenimiento preventivo;Semestral;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM02;S/S BOMBEO CRUDO 2;Arrancador ;23/4/2026;Mantenimiento predictivo;Semestral;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM02;S/S BOMBEO CRUDO 2;Arrancador ;23/4/2026;Mantenimiento preventivo;Anual;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM02;S/S BOMBEO CRUDO 2;Arrancador ;23/4/2026;Mantenimiento predictivo;Anual;Electricidad;
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM03;S/S BOMBEO CRUDO 3;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Semanal;Operador de Estación / Mantenimiento;
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM03;S/S BOMBEO CRUDO 3;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Quincenal;Cuadrilla de Mantenimiento;
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM03;S/S BOMBEO CRUDO 3;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Mensual;Cuadrilla de Mantenimiento;
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM03;S/S BOMBEO CRUDO 3;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Trimestral;Cuadrilla de Mantenimiento;
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM03;S/S BOMBEO CRUDO 3;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Semestral;Cuadrilla de Mantenimiento;
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM03;S/S BOMBEO CRUDO 3;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Anual;Cuadrilla de Mantenimiento;
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM03;S/S BOMBEO CRUDO 3;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Semanal;Operador de Estación / Mantenimiento;
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM03;S/S BOMBEO CRUDO 3;Motor Electrico;1/3/2026;Mantenimiento preventivo;Semanal;Electricidad;septiembre 2026 Mantenimiento Mayor
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM03;S/S BOMBEO CRUDO 3;Motor Electrico;1/3/2026;Mantenimiento preventivo;Mensual;Electricidad;septiembre 2026 Mantenimiento Mayor
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM03;S/S BOMBEO CRUDO 3;Motor Electrico;1/3/2026;Mantenimiento predictivo;Mensual;Cuadrilla de Mantenimiento / Servicio  Especializado;septiembre 2026 Mantenimiento Mayor
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM03;S/S BOMBEO CRUDO 3;Motor Electrico;1/3/2026;Mantenimiento preventivo;Trimestral;Electricidad;septiembre 2026 Mantenimiento Mayor
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM03;S/S BOMBEO CRUDO 3;Motor Electrico;1/3/2026;Mantenimiento preventivo;Anual;Electricidad;septiembre 2026 Mantenimiento Mayor
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM03;S/S BOMBEO CRUDO 3;Motor Electrico;1/3/2026;Mantenimiento predictivo;Anual;Cuadrilla de Mantenimiento / Servicio  Especializado;septiembre 2026 Mantenimiento Mayor
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM03;S/S BOMBEO CRUDO 3;Arrancador ;23/4/2026;Mantenimiento preventivo;Mensual;Electricidad;septiembre 2026 Mantenimiento Mayor
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM03;S/S BOMBEO CRUDO 3;Arrancador ;23/4/2026;Mantenimiento predictivo;Mensual;Electricidad;septiembre 2026 Mantenimiento Mayor
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM03;S/S BOMBEO CRUDO 3;Arrancador ;23/4/2026;Mantenimiento preventivo;Trimestral;Electricidad;septiembre 2026 Mantenimiento Mayor
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM03;S/S BOMBEO CRUDO 3;Arrancador ;23/4/2026;Mantenimiento predictivo;Trimestral;Electricidad;septiembre 2026 Mantenimiento Mayor
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM03;S/S BOMBEO CRUDO 3;Arrancador ;23/4/2026;Mantenimiento preventivo;Semestral;Electricidad;septiembre 2026 Mantenimiento Mayor
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM03;S/S BOMBEO CRUDO 3;Arrancador ;23/4/2026;Mantenimiento predictivo;Semestral;Electricidad;septiembre 2026 Mantenimiento Mayor
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM03;S/S BOMBEO CRUDO 3;Arrancador ;23/4/2026;Mantenimiento preventivo;Anual;Electricidad;septiembre 2026 Mantenimiento Mayor
+Cariña Sur;Flujo;Inactivo;FASTCAR-CEFS1-SIBTRCRU-SSBOM03;S/S BOMBEO CRUDO 3;Arrancador ;23/4/2026;Mantenimiento predictivo;Anual;Electricidad;septiembre 2026 Mantenimiento Mayor
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM04;S/S BOMBEO CRUDO 4;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Semanal;Operador de Estación / Mantenimiento;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM04;S/S BOMBEO CRUDO 4;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Quincenal;Cuadrilla de Mantenimiento;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM04;S/S BOMBEO CRUDO 4;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Mensual;Cuadrilla de Mantenimiento;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM04;S/S BOMBEO CRUDO 4;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Trimestral;Cuadrilla de Mantenimiento;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM04;S/S BOMBEO CRUDO 4;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Semestral;Cuadrilla de Mantenimiento;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM04;S/S BOMBEO CRUDO 4;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Anual;Cuadrilla de Mantenimiento;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM04;S/S BOMBEO CRUDO 4;Bomba Reciprocante;1/3/2026;Mantenimiento preventivo;Semanal;Operador de Estación / Mantenimiento;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM04;S/S BOMBEO CRUDO 4;Motor Electrico;1/3/2026;Mantenimiento preventivo;Semanal;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM04;S/S BOMBEO CRUDO 4;Motor Electrico;1/3/2026;Mantenimiento preventivo;Mensual;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM04;S/S BOMBEO CRUDO 4;Motor Electrico;1/3/2026;Mantenimiento predictivo;Mensual;Cuadrilla de Mantenimiento / Servicio  Especializado;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM04;S/S BOMBEO CRUDO 4;Motor Electrico;1/3/2026;Mantenimiento preventivo;Trimestral;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM04;S/S BOMBEO CRUDO 4;Motor Electrico;1/3/2026;Mantenimiento preventivo;Anual;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM04;S/S BOMBEO CRUDO 4;Motor Electrico;1/3/2026;Mantenimiento predictivo;Anual;Cuadrilla de Mantenimiento / Servicio  Especializado;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM04;S/S BOMBEO CRUDO 4;Arrancador ;23/4/2026;Mantenimiento preventivo;Mensual;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM04;S/S BOMBEO CRUDO 4;Arrancador ;23/4/2026;Mantenimiento predictivo;Mensual;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM04;S/S BOMBEO CRUDO 4;Arrancador ;23/4/2026;Mantenimiento preventivo;Trimestral;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM04;S/S BOMBEO CRUDO 4;Arrancador ;23/4/2026;Mantenimiento predictivo;Trimestral;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM04;S/S BOMBEO CRUDO 4;Arrancador ;23/4/2026;Mantenimiento preventivo;Semestral;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM04;S/S BOMBEO CRUDO 4;Arrancador ;23/4/2026;Mantenimiento predictivo;Semestral;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM04;S/S BOMBEO CRUDO 4;Arrancador ;23/4/2026;Mantenimiento preventivo;Anual;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU-SSBOM04;S/S BOMBEO CRUDO 4;Arrancador ;23/4/2026;Mantenimiento predictivo;Anual;Electricidad;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU;S/S BOMBEO CRUDO;Transmisor de Flujo Micromotion 1;1/3/2026;Mantenimiento preventivo;Mensual;Cuadrilla Electricidad / Instrumentación;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU;S/S BOMBEO CRUDO;Transmisor de Flujo Micromotion 1;1/3/2026;Mantenimiento predictivo;Mensual;Cuadrilla Electricidad / Instrumentación;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU;S/S BOMBEO CRUDO;Transmisor de Flujo Micromotion 1;1/3/2026;Mantenimiento preventivo;Trimestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU;S/S BOMBEO CRUDO;Transmisor de Flujo Micromotion 1;1/3/2026;Mantenimiento predictivo;Trimestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU;S/S BOMBEO CRUDO;Transmisor de Flujo Micromotion 1;1/3/2026;Mantenimiento preventivo;Semestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU;S/S BOMBEO CRUDO;Transmisor de Flujo Micromotion 1;1/3/2026;Mantenimiento predictivo;Semestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU;S/S BOMBEO CRUDO;Transmisor de Flujo Micromotion 1;1/3/2026;Calibración;Anual;Cuadrilla Electricidad / Instrumentación;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU;S/S BOMBEO CRUDO;Transmisor de Flujo Micromotion 2;1/3/2026;Mantenimiento preventivo;Mensual;Cuadrilla Electricidad / Instrumentación;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU;S/S BOMBEO CRUDO;Transmisor de Flujo Micromotion 2;1/3/2026;Mantenimiento predictivo;Mensual;Cuadrilla Electricidad / Instrumentación;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU;S/S BOMBEO CRUDO;Transmisor de Flujo Micromotion 2;1/3/2026;Mantenimiento preventivo;Trimestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU;S/S BOMBEO CRUDO;Transmisor de Flujo Micromotion 2;1/3/2026;Mantenimiento predictivo;Trimestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU;S/S BOMBEO CRUDO;Transmisor de Flujo Micromotion 2;1/3/2026;Mantenimiento preventivo;Semestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU;S/S BOMBEO CRUDO;Transmisor de Flujo Micromotion 2;1/3/2026;Mantenimiento predictivo;Semestral;Cuadrilla Electricidad / Instrumentación;
+Cariña Sur;Flujo;Activo;FASTCAR-CEFS1-SIBTRCRU;S/S BOMBEO CRUDO;Transmisor de Flujo Micromotion 2;1/3/2026;Calibración;Anual;Cuadrilla Electricidad / Instrumentación;
+Bared-10;Descarga;Activo;FASTBAR-BAED0-SIBRECRU-SSBOM11;S/S DE RECIRCULACIÓN A TQ-55006;Bomba circular;29/6/2026;Mantenimiento preventivo;Semanal;Operador de Estación / Mantenimiento;
+Bared-10;Descarga;Activo;FASTBAR-BAED0-SIBRECRU-SSBOM11;S/S DE RECIRCULACIÓN A TQ-55006;Bomba circular;29/6/2026;Mantenimiento preventivo;Mensual;Cuadrilla de Mantenimiento;
+Bared-10;Descarga;Activo;FASTBAR-BAED0-SIBRECRU-SSBOM11;S/S DE RECIRCULACIÓN A TQ-55006;Bomba circular;29/6/2026;Mantenimiento preventivo;Trimestral;Cuadrilla de Mantenimiento;
+Bared-10;Descarga;Activo;FASTBAR-BAED0-SIBRECRU-SSBOM11;S/S DE RECIRCULACIÓN A TQ-55006;Bomba circular;29/6/2026;Mantenimiento preventivo;Semestral;Cuadrilla de Mantenimiento;
+Bared-10;Descarga;Activo;FASTBAR-BAED0-SIBRECRU-SSBOM11;S/S DE RECIRCULACIÓN A TQ-55006;Bomba circular;29/6/2026;Mantenimiento preventivo;Anual;Cuadrilla de Mantenimiento;
