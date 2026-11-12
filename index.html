@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="es" class="h-full bg-slate-100 text-slate-800">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronograma de Mantenimiento - Equipos Rotativos Campo Cariña</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff', 100: '#e0effe', 500: '#0284c7', 600: '#0369a1', 700: '#0369a1', 800: '#075985', 900: '#0c4a6e'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        @media print {
+            @page { size: letter landscape; margin: 1cm; }
+            body { background: white !important; font-size: 7pt !important; }
+            .no-print { display: none !important; }
+            .print-only { display: block !important; }
+            table { width: 100% !important; border-collapse: collapse !important; }
+            th, td { border: 1px solid #64748b !important; padding: 2px 3px !important; font-size: 6.5pt !important; }
+        }
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: #f1f5f9; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+    </style>
+</head>
+<body class="h-full flex flex-col font-sans bg-slate-100 text-slate-800 antialiased">
+
+    <!-- Header Navigation -->
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-50 no-print shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center space-x-3">
+                    <div class="bg-brand-600 text-white font-bold px-3 py-1.5 rounded-lg text-xs">VULCAN</div>
+                    <div>
+                        <h1 class="text-base font-bold tracking-tight text-slate-900 flex items-center gap-2">
+                            CRONOGRAMA DE MANTENIMIENTO - EQUIPOS ROTATIVOS
+                            <span class="text-[10px] bg-brand-100 text-brand-700 border border-brand-200 px-2 py-0.5 rounded-full font-bold" id="header-total-eq">30 EQUIPOS</span>
+                        </h1>
+                        <p class="text-xs text-slate-500">Campo Cariña | Ciclos Quincenales 2026</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center space-x-2">
+                    <button onclick="toggleConfigModal()" class="inline-flex items-center gap-2 bg-amber-50 hover:bg-amber-100 text-amber-800 border border-amber-300 font-medium text-xs px-3 py-2 rounded-lg transition-colors">
+                        <i class="fa-solid fa-cloud text-amber-600"></i>
+                        <span id="cloud-status-text">Conectar Nube</span>
+                    </button>
+                    <button onclick="toggleUploadModal()" class="inline-flex items-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-300 font-medium text-xs px-3 py-2 rounded-lg transition-colors">
+                        <i class="fa-solid fa-cloud-arrow-up text-brand-600"></i>
+                        <span>Cargar CSV</span>
+                    </button>
+                    <button onclick="exportToCSV()" class="inline-flex items-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-300 font-medium text-xs px-3 py-2 rounded-lg">
+                        <i class="fa-solid fa-file-csv text-emerald-600"></i>
+                        <span>Exportar CSV</span>
+                    </button>
+                    <button onclick="window.print()" class="inline-flex items-center gap-2 bg-brand-600 hover:bg-brand-500 text-white font-medium text-xs px-3.5 py-2 rounded-lg shadow-md">
+                        <i class="fa-solid fa-print"></i>
+                        <span>Imprimir</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
+
+        <!-- Banner Protocolo ISO -->
+        <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm no-print">
+            <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+                <div class="space-y-1">
+                    <span class="bg-brand-50 text-brand-700 border border-brand-200 text-[10px] font-bold uppercase px-2.5 py-0.5 rounded-full">
+                        Norma ISO 55000 & ISO 14224 — Gestión de Activos Rotativos
+                    </span>
+                    <h2 class="text-lg font-bold text-slate-900">Matriz Cronológica de Ejecución e Inspección Preventiva</h2>
+                    <p class="text-xs text-slate-600">Marque las casillas en los ciclos correspondientes a la fecha de inicio y frecuencia de cada equipo rotativo.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- KPI Cards -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            <div class="bg-white border border-slate-200 p-4 rounded-xl shadow-sm">
+                <div class="flex items-center justify-between text-slate-500 text-xs font-semibold"><span>TOTAL EQUIPOS</span><i class="fa-solid fa-cubes text-brand-600"></i></div>
+                <div class="mt-2"><span class="text-2xl font-black text-slate-900" id="kpi-total-eq">30</span><span class="text-[11px] text-slate-500 block">Ubicaciones técnicas</span></div>
+            </div>
+            <div class="bg-white border border-slate-200 p-4 rounded-xl shadow-sm">
+                <div class="flex items-center justify-between text-slate-500 text-xs font-semibold"><span>SISTEMAS</span><i class="fa-solid fa-network-wired text-cyan-600"></i></div>
+                <div class="mt-2"><span class="text-2xl font-black text-cyan-600" id="kpi-systems">9</span><span class="text-[11px] text-slate-500 block">Sistemas de bombeo</span></div>
+            </div>
+            <div class="bg-white border border-slate-200 p-4 rounded-xl shadow-sm">
+                <div class="flex items-center justify-between text-slate-500 text-xs font-semibold"><span>ACTIVIDADES PROGRAMADAS</span><i class="fa-solid fa-calendar-check text-indigo-600"></i></div>
+                <div class="mt-2"><span class="text-2xl font-black text-indigo-600" id="kpi-scheduled">0</span><span class="text-[11px] text-slate-500 block">Eventos en cronograma</span></div>
+            </div>
+            <div class="bg-white border border-slate-200 p-4 rounded-xl shadow-sm">
+                <div class="flex items-center justify-between text-slate-500 text-xs font-semibold"><span>EJECUTADAS</span><i class="fa-solid fa-square-check text-emerald-600"></i></div>
+                <div class="mt-2"><span class="text-2xl font-black text-emerald-600" id="kpi-executed">0</span><span class="text-[11px] text-slate-500 block">Certificadas</span></div>
+            </div>
+        </div>
+
+        <!-- Filtros -->
+        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm space-y-3 no-print">
+            <div class="flex items-center justify-between border-b border-slate-200 pb-2.5">
+                <h3 class="text-xs font-bold text-slate-700 uppercase tracking-wider flex items-center gap-2">
+                    <i class="fa-solid fa-filter text-brand-600"></i> Filtros de Búsqueda
+                </h3>
+                <button onclick="resetFilters()" class="text-xs text-slate-500 hover:text-brand-600"><i class="fa-solid fa-rotate-left"></i> Restablecer</button>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-4 gap-3">
+                <div>
+                    <label class="block text-[11px] font-semibold text-slate-600 mb-1">Sistema</label>
+                    <select id="filter-system" onchange="applyFilters()" class="w-full text-xs bg-slate-50 border border-slate-300 rounded-lg p-2">
+                        <option value="">Todos los Sistemas</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-[11px] font-semibold text-slate-600 mb-1">Frecuencia</label>
+                    <select id="filter-frecuencia" onchange="applyFilters()" class="w-full text-xs bg-slate-50 border border-slate-300 rounded-lg p-2">
+                        <option value="">Todas las Frecuencias</option>
+                        <option value="Semanal">Semanal</option>
+                        <option value="Quincenal">Quincenal</option>
+                        <option value="Mensual">Mensual</option>
+                        <option value="Trimestral">Trimestral</option>
+                        <option value="Semestral">Semestral</option>
+                        <option value="Anual">Anual</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-[11px] font-semibold text-slate-600 mb-1">Tipo Mantenimiento</label>
+                    <select id="filter-tipo" onchange="applyFilters()" class="w-full text-xs bg-slate-50 border border-slate-300 rounded-lg p-2">
+                        <option value="">Todos</option>
+                        <option value="Mantenimiento preventivo">Preventivo</option>
+                        <option value="Mantenimiento predictivo">Predictivo</option>
+                        <option value="Calibración">Calibración</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-[11px] font-semibold text-slate-600 mb-1">Buscar</label>
+                    <input type="text" id="search-input" onkeyup="applyFilters()" placeholder="Tag, Sistema, Subsistema..." class="w-full text-xs bg-slate-50 border border-slate-300 rounded-lg p-2">
+                </div>
+            </div>
+        </div>
+
+        <!-- Matriz Cronológica Tab 1 -->
+        <div class="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+            <div class="p-4 bg-white border-b border-slate-200 flex justify-between items-center">
+                <div>
+                    <h3 class="text-xs font-bold text-slate-800 uppercase tracking-wider">Vista Matriz: Cronograma Quincenal por Fecha de Inicio</h3>
+                    <p class="text-[11px] text-slate-500">Cada columna representa un ciclo quincenal del año 2026. Las celdas programadas según la fecha de inicio y frecuencia se muestran habilitadas.</p>
+                </div>
+                <span class="text-xs font-semibold px-3 py-1 bg-brand-50 text-brand-700 border border-brand-200 rounded-full" id="counter-records">
+                    0 registros
+                </span>
+            </div>
+
+            <div class="overflow-x-auto max-h-[600px]">
+                <table class="w-full text-left text-xs border-collapse">
+                    <thead class="bg-slate-50 text-slate-700 sticky top-0 z-20 border-b border-slate-200">
+                        <tr>
+                            <th class="p-2 font-bold w-20">ÁREA</th>
+                            <th class="p-2 font-bold min-w-[140px]">SISTEMA</th>
+                            <th class="p-2 font-bold min-w-[140px]">SUBSISTEMA / EQUIPO</th>
+                            <th class="p-2 font-bold w-24">FREC.</th>
+                            <th class="p-2 font-bold w-24">INICIO</th>
+                            <th id="cycle-headers-container" class="p-0" colspan="20"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="matrix-table-body" class="divide-y divide-slate-200 bg-white text-slate-700"></tbody>
+                </table>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Modal Configuración GitHub -->
+    <div id="modal-config" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center hidden no-print">
+        <div class="bg-white border border-slate-200 rounded-2xl w-full max-w-md p-6 shadow-2xl space-y-4">
+            <div class="flex items-center justify-between border-b border-slate-200 pb-3">
+                <h3 class="text-base font-bold text-slate-900"><i class="fa-solid fa-key text-brand-600"></i> Conexión GitHub</h3>
+                <button onclick="toggleConfigModal()" class="text-slate-400 hover:text-slate-700"><i class="fa-solid fa-xmark text-lg"></i></button>
+            </div>
+            <p class="text-xs text-slate-600">Introduce tu <strong>GitHub Personal Access Token</strong> para guardar las ejecuciones en la nube.</p>
+            <input type="password" id="github-token-input" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" class="w-full text-xs bg-slate-50 border border-slate-300 rounded-lg p-2.5">
+            <div class="flex justify-end space-x-2 pt-2">
+                <button onclick="toggleConfigModal()" class="bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs px-4 py-2 rounded-lg font-medium">Cancelar</button>
+                <button onclick="saveGitHubToken()" class="bg-brand-600 hover:bg-brand-500 text-white text-xs px-4 py-2 rounded-lg font-medium">Guardar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Carga CSV -->
+    <div id="modal-upload" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center hidden no-print">
+        <div class="bg-white border border-slate-200 rounded-2xl w-full max-w-xl p-6 shadow-2xl space-y-4">
+            <div class="flex items-center justify-between border-b border-slate-200 pb-3">
+                <h3 class="text-base font-bold text-slate-900"><i class="fa-solid fa-database text-brand-600"></i> Cargar Archivo CSV</h3>
+                <button onclick="toggleUploadModal()" class="text-slate-400 hover:text-slate-700"><i class="fa-solid fa-xmark text-lg"></i></button>
+            </div>
+            <div id="drop-zone" onclick="document.getElementById('file-input').click()" class="border-2 border-dashed border-slate-300 hover:border-brand-500 rounded-xl p-8 text-center cursor-pointer bg-slate-50">
+                <input type="file" id="file-input" accept=".csv" onchange="handleFileSelect(event)" class="hidden">
+                <div class="w-12 h-12 bg-brand-50 text-brand-600 border border-brand-200 rounded-full flex items-center justify-center mx-auto text-xl mb-2">
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                </div>
+                <p class="text-sm font-semibold text-slate-900">Haz clic o arrastra tu archivo CSV de Equipos Rotativos</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-white border-t border-slate-200 py-4 mt-auto no-print">
+        <div class="max-w-7xl mx-auto px-4 text-center text-xs text-slate-500 flex justify-between items-center">
+            <p><strong>© 2026 — Ing. Karli Jiménez</strong> - Mantenimiento de Equipos Rotativos | Campo Cariña</p>
+            <p>Vulcan Energy Technology Venezolana, C.A.</p>
+        </div>
+    </footer>
+
+    <script>
+        const CSV_URL = 'Mtto Equipos Rotativos Campo Cariña.csv';
+        const GITHUB_REPO = 'karlij/plan-de-mantenimiento-macollas';
+        const EXECUTED_FILE_PATH = 'executed_rotativos.json';
+
+        let rawData = [];
+        let filteredData = [];
+        let cycles = [];
+        let executedInterventions = {};
+        let githubToken = localStorage.getItem('vulcan_gh_token') || '';
+
+        const BASE_START_DATE = new Date(2026, 0, 1);
+        const BASE_END_DATE = new Date(2026, 11, 31);
+
+        document.addEventListener("DOMContentLoaded", async () => {
+            updateCloudStatusUI();
+            generateCycles();
+            await loadExecutionStatusFromCloud();
+
+            try {
+                const res = await fetch(CSV_URL);
+                if (!res.ok) throw new Error('No se pudo cargar el archivo CSV');
+                const text = await res.text();
+                parseAndSetData(text);
+            } catch (e) {
+                console.warn("Cargando datos locales de respaldo...", e);
+            }
+        });
+
+        function generateCycles() {
+            cycles = [];
+            let curr = new Date(2026, 3, 1); // 1 de Abril 2026 como base de ciclos quincenales
+            let end = new Date(2026, 11, 31);
+            let idx = 1;
+            while (curr <= end) {
+                cycles.push({ cycleNumber: idx, startDate: new Date(curr) });
+                curr.setDate(curr.getDate() + 14);
+                idx++;
+            }
+        }
+
+        function parseAndSetData(text) {
+            const lines = text.split('\n').filter(l => l.trim() !== '');
+            if (lines.length < 2) return;
+            const headers = lines[0].split(';').map(h => h.trim().replace(/^"/, '').replace(/"$/, '').replace(/^\uFEFF/, ''));
+            
+            rawData = [];
+            for (let i = 1; i < lines.length; i++) {
+                const values = lines[i].split(';').map(v => v.trim().replace(/^"/, '').replace(/"$/, ''));
+                if (values.length >= headers.length) {
+                    let obj = {};
+                    headers.forEach((h, idx) => obj[h] = values[idx] || '');
+                    rawData.push(obj);
+                }
+            }
+            populateFilters();
+            applyFilters();
+        }
+
+        function populateFilters() {
+            const sysSel = document.getElementById('filter-system');
+            sysSel.innerHTML = '<option value="">Todos los Sistemas</option>';
+            [...new Set(rawData.map(d => d.Sistema))].filter(Boolean).sort().forEach(s => {
+                sysSel.innerHTML += `<option value="${s}">${s}</option>`;
+            });
+        }
+
+        function applyFilters() {
+            const system = document.getElementById('filter-system').value;
+            const frecuencia = document.getElementById('filter-frecuencia').value;
+            const tipo = document.getElementById('filter-tipo').value;
+            const search = document.getElementById('search-input').value.toLowerCase().trim();
+
+            filteredData = rawData.filter(d => {
+                return (!system || d.Sistema === system) &&
+                       (!frecuencia || d.Frecuencia === frecuencia) &&
+                       (!tipo || d['Tipo de Mantenimiento'] === tipo) &&
+                       (!search || Object.values(d).some(val => val.toLowerCase().includes(search)));
+            });
+
+            updateKPIs();
+            renderMatrixView();
+        }
+
+        function resetFilters() {
+            document.getElementById('filter-system').value = '';
+            document.getElementById('filter-frecuencia').value = '';
+            document.getElementById('filter-tipo').value = '';
+            document.getElementById('search-input').value = '';
+            applyFilters();
+        }
+
+        function updateKPIs() {
+            const uniqueEquip = new Set(rawData.map(d => d['Ubicación Tecnica'] || d.Subsistema)).size;
+            document.getElementById('kpi-total-eq').innerText = uniqueEquip;
+            document.getElementById('header-total-eq').innerText = `${uniqueEquip} EQUIPOS`;
+            document.getElementById('counter-records').innerText = `${filteredData.length} registros`;
+            document.getElementById('kpi-scheduled').innerText = filteredData.length * 4; // Estimado de eventos
+        }
+
+        function isCycleScheduled(item, cycleDate) {
+            const parts = item['Fecha de Inicio'].split('/');
+            if (parts.length < 3) return false;
+            let startDate = new Date(parts[2], parts[1] - 1, parts[0]);
+            if (cycleDate < startDate) return false;
+
+            const freq = item.Frecuencia;
+            const diffTime = cycleDate - startDate;
+            const diffDays = diffTime / (1000 * 60 * 60 * 24);
+
+            if (freq === 'Semanal') return diffDays % 7 === 0 || diffDays % 14 === 0;
+            if (freq === 'Quincenal') return diffDays % 14 === 0;
+            if (freq === 'Mensual') return diffDays % 30 <= 3;
+            if (freq === 'Trimestral') return diffDays % 90 <= 5;
+            if (freq === 'Semestral') return diffDays % 180 <= 5;
+            if (freq === 'Anual' || freq === 'Bi Anual') return diffDays % 365 <= 7;
+            return false;
+        }
+
+        function renderMatrixView() {
+            const tbody = document.getElementById('matrix-table-body');
+            const headersContainer = document.getElementById('cycle-headers-container');
+
+            let headerHTML = `<div class="flex divide-x divide-slate-200 border-l border-slate-200">`;
+            cycles.forEach(c => {
+                const dateStr = `${c.startDate.getDate()}/${c.startDate.getMonth()+1}`;
+                headerHTML += `<div class="flex-1 px-1 py-2 text-center min-w-[70px]">
+                    <div class="text-[10px] text-brand-600 font-bold">Q${c.cycleNumber}</div>
+                    <div class="text-[9px] text-slate-500">${dateStr}</div>
+                </div>`;
+            });
+            headerHTML += `</div>`;
+            headersContainer.innerHTML = headerHTML;
+
+            if (filteredData.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="25" class="p-8 text-center text-slate-500">No se encontraron registros.</td></tr>`;
+                return;
+            }
+
+            let rowsHTML = "";
+            filteredData.forEach((d, idx) => {
+                const itemKey = `${d['Ubicación Tecnica'] || 'S/N'}_${d.Sistema}_${d.Subsistema}_${d.Frecuencia}_${idx}`.replace(/[\s\/\.]/g, '_');
+                rowsHTML += `
+                    <tr class="hover:bg-slate-50 transition-colors">
+                        <td class="p-2 font-semibold text-slate-700">${d.Area}</td>
+                        <td class="p-2 font-bold text-slate-900">${d.Sistema}</td>
+                        <td class="p-2 text-slate-600 font-medium">${d.Subsistema} <span class="block font-mono text-[9px] text-brand-600">${d['Ubicación Tecnica']}</span></td>
+                        <td class="p-2 font-bold text-brand-600">${d.Frecuencia}</td>
+                        <td class="p-2 font-mono text-[11px]">${d['Fecha de Inicio']}</td>
+                        <td class="p-0" colspan="20">
+                            <div class="flex divide-x divide-slate-200 h-full">
+                `;
+
+                cycles.forEach(c => {
+                    const scheduled = isCycleScheduled(d, c.startDate);
+                    if (scheduled) {
+                        const isExecuted = executedInterventions[itemKey] && executedInterventions[itemKey].includes(c.cycleNumber);
+                        const cellBg = isExecuted ? 'bg-indigo-50 border-indigo-200' : 'bg-emerald-50/50 hover:bg-emerald-50';
+                        rowsHTML += `
+                            <div class="flex-1 p-1 text-center min-w-[70px] flex flex-col justify-center items-center ${cellBg}">
+                                <label class="cursor-pointer flex items-center justify-center w-full h-full" title="Ciclo Q${c.cycleNumber} - Programado">
+                                    <input type="checkbox" ${isExecuted ? 'checked' : ''} onchange="toggleExecution('${itemKey}', ${c.cycleNumber})" class="rounded text-indigo-600 w-3 h-3">
+                                </label>
+                            </div>
+                        `;
+                    } else {
+                        rowsHTML += `<div class="flex-1 p-1 text-center min-w-[70px] bg-slate-50 text-slate-300">-</div>`;
+                    }
+                });
+
+                rowsHTML += `</div></td></tr>`;
+            });
+
+            tbody.innerHTML = rowsHTML;
+        }
+
+        async function toggleExecution(itemKey, cycleNum) {
+            if (!executedInterventions[itemKey]) executedInterventions[itemKey] = [];
+            if (executedInterventions[itemKey].includes(cycleNum)) {
+                executedInterventions[itemKey] = executedInterventions[itemKey].filter(c => c !== cycleNum);
+            } else {
+                executedInterventions[itemKey].push(cycleNum);
+            }
+            
+            const executedTotal = Object.values(executedInterventions).reduce((sum, arr) => sum + arr.length, 0);
+            document.getElementById('kpi-executed').innerText = executedTotal;
+            await saveExecutionStatusToCloud();
+        }
+
+        async function loadExecutionStatusFromCloud() {
+            try {
+                const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${EXECUTED_FILE_PATH}`, {
+                    headers: githubToken ? { 'Authorization': `token ${githubToken}` } : {}
+                });
+                if (res.ok) {
+                    const fileData = await res.json();
+                    executedInterventions = JSON.parse(decodeURIComponent(escape(atob(fileData.content))));
+                    const executedTotal = Object.values(executedInterventions).reduce((sum, arr) => sum + arr.length, 0);
+                    document.getElementById('kpi-executed').innerText = executedTotal;
+                }
+            } catch (e) {
+                executedInterventions = JSON.parse(localStorage.getItem('vulcan_rotativos_executed') || '{}');
+            }
+        }
+
+        async function saveExecutionStatusToCloud() {
+            localStorage.setItem('vulcan_rotativos_executed', JSON.stringify(executedInterventions));
+            if (!githubToken) return;
+            try {
+                const getRes = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${EXECUTED_FILE_PATH}`, {
+                    headers: { 'Authorization': `token ${githubToken}` }
+                });
+                let sha = getRes.ok ? (await getRes.json()).sha : null;
+                const contentStr = JSON.stringify(executedInterventions, null, 2);
+                await fetch(`https://api.github.com/repos/${GITHUB_REPO}/contents/${EXECUTED_FILE_PATH}`, {
+                    method: 'PUT',
+                    headers: { 'Authorization': `token ${githubToken}`, 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: "Update executed maintenance status [Cloud Sync]", content: btoa(unescape(encodeURIComponent(contentStr))), sha: sha })
+                });
+            } catch (e) { console.error("Cloud sync error:", e); }
+        }
+
+        function toggleConfigModal() { document.getElementById('modal-config').classList.toggle('hidden'); }
+        function toggleUploadModal() { document.getElementById('modal-upload').classList.toggle('hidden'); }
+        function saveGitHubToken() {
+            githubToken = document.getElementById('github-token-input').value.trim();
+            localStorage.setItem('vulcan_gh_token', githubToken);
+            toggleConfigModal();
+            updateCloudStatusUI();
+            alert("Token guardado correctamente.");
+        }
+        function updateCloudStatusUI() {
+            const btnText = document.getElementById('cloud-status-text');
+            if (githubToken) {
+                btnText.innerText = "Nube Conectada";
+                btnText.parentElement.classList.remove('bg-amber-50', 'text-amber-800');
+                btnText.parentElement.classList.add('bg-emerald-50', 'text-emerald-800');
+            }
+        }
+        function handleFileSelect(e) {
+            const file = e.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = function(evt) {
+                parseAndSetData(evt.target.result);
+                toggleUploadModal();
+            };
+            reader.readAsText(file);
+        }
+        function exportToCSV() {
+            let csv = "Area;ESTACIÓN;Estado;Ubicación Tecnica;Sistema;Subsistema;Fecha de Inicio;Tipo de Mantenimiento;Frecuencia;Responsable;observación\n";
+            filteredData.forEach(d => {
+                csv += `${d.Area};${d.ESTACIÓN};${d.Estado};${d['Ubicación Tecnica']};${d.Sistema};${d.Subsistema};${d['Fecha de Inicio']};${d['Tipo de Mantenimiento']};${d.Frecuencia};${d.Responsable};${d.observación || ''}\n`;
+            });
+            const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement("a");
+            link.href = URL.createObjectURL(blob);
+            link.download = "Cronograma_Equipos_Rotativos.csv";
+            link.click();
+        }
+    </script>
+</body>
+</html>
